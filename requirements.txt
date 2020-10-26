@@ -1,0 +1,4 @@
+python-telegram-bot~=13.0
+setuptools~=50.3.2
+schedule~=0.6.0
+requests~=2.24.0
