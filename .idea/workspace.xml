@@ -16,24 +16,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3aba7b3-344c-4b20-af69-45af14b23916" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/bot_telega.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schedule_bot/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schedule_bot/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schedule_bot/log.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schedule_bot/mySchedule.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schedule_bot/opw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+    <list default="true" id="a3aba7b3-344c-4b20-af69-45af14b23916" name="Default Changelist" comment="First push.&#10;Add:&#10;    1. start&#10;    2. help&#10;    3. weather">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,8 +121,16 @@
       <updated>1603457712763</updated>
       <workItem from="1603457713924" duration="630000" />
       <workItem from="1603458365886" duration="3593000" />
-      <workItem from="1603484301694" duration="38136000" />
+      <workItem from="1603484301694" duration="38542000" />
     </task>
+    <task id="LOCAL-00001" summary="First push.&#10;Add:&#10;    1. start&#10;    2. help&#10;    3. weather">
+      <created>1603738949343</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603738949343</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +161,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="First push.&#10;Add:&#10;    1. start&#10;    2. help&#10;    3. weather" />
+    <option name="LAST_COMMIT_MESSAGE" value="First push.&#10;Add:&#10;    1. start&#10;    2. help&#10;    3. weather" />
   </component>
   <component name="WindowStateProjectService">
     <state x="309" y="42" key="#Inspections" timestamp="1603542281976">
@@ -187,30 +181,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603738298075" />
-    <state width="1323" height="245" key="GridCell.Tab.0.bottom" timestamp="1603734962741">
+    <state width="661" height="245" key="GridCell.Tab.0.bottom" timestamp="1603739035857">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="245" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603734962741" />
-    <state width="1323" height="245" key="GridCell.Tab.0.center" timestamp="1603734962741">
+    <state width="661" height="245" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603739035857" />
+    <state width="661" height="245" key="GridCell.Tab.0.center" timestamp="1603739035857">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="245" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603734962741" />
-    <state width="1323" height="245" key="GridCell.Tab.0.left" timestamp="1603734962741">
+    <state width="661" height="245" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603739035857" />
+    <state width="661" height="245" key="GridCell.Tab.0.left" timestamp="1603739035856">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="245" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603734962741" />
-    <state width="1323" height="245" key="GridCell.Tab.0.right" timestamp="1603734962741">
+    <state width="661" height="245" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603739035856" />
+    <state width="661" height="245" key="GridCell.Tab.0.right" timestamp="1603739035857">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="245" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603734962741" />
+    <state width="661" height="245" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603739035857" />
     <state x="82" y="4" width="916" height="708" key="SettingsEditor" timestamp="1603654144097">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="82" y="4" width="916" height="708" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603654144097" />
-    <state x="529" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603738818981">
+    <state x="253" y="85" key="Vcs.Push.Dialog.v2" timestamp="1603738994563">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="529" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1603738818981" />
+    <state x="253" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603738994563" />
+    <state x="529" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603738844723">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="529" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1603738844723" />
     <state x="484" y="270" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603738415005">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
