@@ -16,8 +16,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3aba7b3-344c-4b20-af69-45af14b23916" name="Default Changelist" comment="First push.&#10;Add:&#10;    1. start&#10;    2. help&#10;    3. weather">
+    <list default="true" id="a3aba7b3-344c-4b20-af69-45af14b23916" name="Default Changelist" comment="Modified:&#10;    README.md">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schedule_bot/mySchedule.py" beforeDir="false" afterPath="$PROJECT_DIR$/schedule_bot/mySchedule.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test_project" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
@@ -121,7 +125,7 @@
       <updated>1603457712763</updated>
       <workItem from="1603457713924" duration="630000" />
       <workItem from="1603458365886" duration="3593000" />
-      <workItem from="1603484301694" duration="38542000" />
+      <workItem from="1603484301694" duration="44389000" />
     </task>
     <task id="LOCAL-00001" summary="First push.&#10;Add:&#10;    1. start&#10;    2. help&#10;    3. weather">
       <created>1603738949343</created>
@@ -130,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603738949343</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Modified:&#10;    README.md">
+      <created>1603739281952</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603739281952</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +173,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First push.&#10;Add:&#10;    1. start&#10;    2. help&#10;    3. weather" />
-    <option name="LAST_COMMIT_MESSAGE" value="First push.&#10;Add:&#10;    1. start&#10;    2. help&#10;    3. weather" />
+    <MESSAGE value="Modified:&#10;    README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified:&#10;    README.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="309" y="42" key="#Inspections" timestamp="1603542281976">
@@ -177,34 +189,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="444" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1603726801170" />
-    <state x="462" y="119" key="FileChooserDialogImpl" timestamp="1603738298075">
+    <state x="462" y="119" key="FileChooserDialogImpl" timestamp="1603749292600">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603738298075" />
-    <state width="661" height="245" key="GridCell.Tab.0.bottom" timestamp="1603739035857">
+    <state x="462" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603749292600" />
+    <state width="1323" height="245" key="GridCell.Tab.0.bottom" timestamp="1603751302641">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="245" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603739035857" />
-    <state width="661" height="245" key="GridCell.Tab.0.center" timestamp="1603739035857">
+    <state width="1323" height="245" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603751302641" />
+    <state width="1323" height="245" key="GridCell.Tab.0.center" timestamp="1603751302641">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="245" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603739035857" />
-    <state width="661" height="245" key="GridCell.Tab.0.left" timestamp="1603739035856">
+    <state width="1323" height="245" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603751302641" />
+    <state width="1323" height="245" key="GridCell.Tab.0.left" timestamp="1603751302641">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="245" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603739035856" />
-    <state width="661" height="245" key="GridCell.Tab.0.right" timestamp="1603739035857">
+    <state width="1323" height="245" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603751302641" />
+    <state width="1323" height="245" key="GridCell.Tab.0.right" timestamp="1603751302641">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="245" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603739035857" />
+    <state width="1323" height="245" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603751302641" />
     <state x="82" y="4" width="916" height="708" key="SettingsEditor" timestamp="1603654144097">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="82" y="4" width="916" height="708" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603654144097" />
-    <state x="253" y="85" key="Vcs.Push.Dialog.v2" timestamp="1603738994563">
+    <state x="253" y="85" key="Vcs.Push.Dialog.v2" timestamp="1603739297022">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="253" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603738994563" />
+    <state x="253" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603739297022" />
     <state x="529" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603738844723">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -216,6 +228,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/bot_telega$main.coverage" NAME="main Coverage Results" MODIFIED="1603734962730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/bot_telega$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1603730546919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test_project" />
+    <SUITE FILE_PATH="coverage/bot_telega$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1603751302641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test_project" />
   </component>
 </project>
