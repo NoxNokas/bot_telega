@@ -3,24 +3,32 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from .log import logger
 from .config import Config
 from .opw import get_weather
+from .sqlite_db import init_db
+from .sqlite_db import insert_db
 
 
+@insert_db
 def start(updater, context):
     updater.message.reply_text('Hi!')
 
 
+@insert_db
 def command_help(updater, context):
     updater.message.reply_text("Hi! I'm use less help")
+    # print(updater)
+    # print(context)
 
 
+@insert_db
 def echo(updater, context):
-    updater.message.reply_text(updater.message.text)
+    print(updater)
 
 
+@insert_db
 def weather_from_location(updater, context):
     weather = get_weather('Moscow')
     temperature = weather['main']['temp']
-    if type(temperature) in (int, float):
+    if isinstance(temperature, (int, float)):
         updater.message.reply_text(temperature)
     else:
         updater.message.reply_text("ERROR")
@@ -28,8 +36,10 @@ def weather_from_location(updater, context):
 
 def main():
     Config.read_opts()
+    init_db()
     updater = Updater(token=Config.TOKEN, use_context=True)
     dp = updater.dispatcher
+
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(CommandHandler("help", command_help))
     # dp.add_handler(MessageHandler(Filters.text & ~Filters.command, echo))
