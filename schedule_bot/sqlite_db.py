@@ -1,4 +1,5 @@
 import sqlite3
+import functools
 
 
 def init_db(force: bool = False):
@@ -38,6 +39,7 @@ def init_db(force: bool = False):
 
 
 def insert_db(func):
+    @functools.wraps(func)
     def wrapped(updater, context):
         func(updater, context)
 
