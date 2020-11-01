@@ -14,7 +14,9 @@ def start(updater, context):
 
 @insert_db
 def command_help(updater, context):
-    updater.message.reply_text("Commands:\n/weather\n/help")
+    updater.message.reply_text("Hi! I'm use less help")
+    # print(updater)
+    # print(context)
 
 
 @insert_db
@@ -27,7 +29,7 @@ def weather_from_location(updater, context):
     weather = get_weather('Moscow')
     temperature = weather['main']['temp']
     if isinstance(temperature, (int, float)):
-        updater.message.reply_text('Temperature in Moscow: ' + str(temperature))
+        updater.message.reply_text(temperature)
     else:
         updater.message.reply_text("ERROR")
 
