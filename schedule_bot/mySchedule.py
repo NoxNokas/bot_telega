@@ -20,3 +20,4 @@ def events_check(updater, context):
             # context.bot.send_message(updater['message']['chat']['id'], f"You have an event: {event[1]}")
             events.remove(event)
     return schedule.CancelJob
+

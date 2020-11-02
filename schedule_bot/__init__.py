@@ -6,7 +6,7 @@ from .config import Config
 from .opw import get_weather
 from .sqlite_db import init_db
 from .sqlite_db import insert_db
-
+import pandas as pd
 
 from datetime import datetime
 import schedule
@@ -24,7 +24,9 @@ def command_help(updater, context):
     Commands:
     /weather
     /help
-    /remind <Y.m.d> <message>""")
+    /remind <Y.m.d> <message>
+    /schedule_today
+    """)
 
 
 @insert_db
@@ -38,6 +40,7 @@ def weather_from_location(updater, context):
     temperature = weather['main']['temp']
     if isinstance(temperature, (int, float)):
         updater.message.reply_text('Temperature in Moscow: ' + str(temperature))
+        return temperature
     else:
         updater.message.reply_text("ERROR")
 
@@ -57,6 +60,25 @@ def remind(updater, context):
         updater.message.reply_text("Remembered")
 
 
+@insert_db
+def schedule_today(updater, context):
+    try:
+        df = pd.read_excel("schedule_bot/Schedule.xlsx")
+    except FileNotFoundError:
+        updater.message.reply_text("File not found")
+    else:
+        if context.args[0] in list(df["День недели"]):
+            df = df.loc[df["День недели"] == context.args[0]]
+            temp = 'Предмет:{}\nЛектор:{}\nМесто встречи:{}\nНачало:{}\nКонец:{}'.format(
+                df["Предмет"].values[0],
+                df["Преподаватель"].values[0],
+                df["Место встречи"].values[0],
+                df["Начало"].values[0],
+                df["Конец"].values[0]
+            )
+            updater.message.reply_text(temp)
+
+
 def main():
     Config.read_opts()
     init_db()
@@ -68,6 +90,7 @@ def main():
     # dp.add_handler(MessageHandler(Filters.text & ~Filters.command, echo))
     dp.add_handler(CommandHandler("weather", weather_from_location))
     dp.add_handler(CommandHandler("remind", remind))
+    dp.add_handler(CommandHandler("schedule_today", schedule_today))
 
     updater.start_polling()
     # updater.idle()
@@ -75,4 +98,3 @@ def main():
     schedule_thread = Thread(target=mySchedule.start_schedule)
     schedule_thread.start()
     schedule_thread.join()
-
